@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prajwol Simkhada</title>
+	
+	<meta name="viewport" content="width=device-width initial-scale=1">
+</head>
+<body>
+	
+	<div id="header">
+		<div id="logo">
+			<img src="logo/logo.png">
+		</div>	
+	 <ul id="navbar">
+		<li><a href="index.html">Home </a></li>
+		<li><a href="about.html">About </a></li>
+	    <li><a href="cv.html">CV </a></li>
+	    <li><a href="social.html">Social</a></li> 
+	    <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+  </div> 
+  <div class="app">
+      <section>
+        <p><img src="Photo/1.jpg" width="200px" height="200px"></p>	
+      	<a href="https://www.facebook.com/prazawol.simkhada">Facebook
+      	</a>
+      </section>
+         <section>
+      	<p><img src="Photo/2.jpg"></p>	
+      	<a href="https://www.instagram.com/not_prazawol17/">Instagram
+      	</a>
+      	</section>
+      	<section>
+      	<p><img src="Photo/3.png." ></p>	
+      	<a href="https://www.linkedin.com/in/prajwol-simkhada-b52399158/">linkedin
+      	</a>
+        </section>
+        <footer>Copyright</footer>
+    </div>
+
+ 
+</body>
+</html> 
+<style>
+  *{
+	margin: 0px;
+	padding: 0px;
+}
+body{background-color: skyblue;}
+header,footer{background-color: #333; width: 100%, height:80px; box-shadow:0px, 3px, 6px grey; }
+#navbar{width: 95%; height:80px;border-right:3px solid white ; background-color: #333}
+#navbar>li {width: 15%; list-style: none;display: inline-flex;flex-direction: row;flex-basis: 0; border-left: 1px solid gray;  }
+li>a {display: block;color: white; line-height: 80px; text-align: center;font-family: Lobster;font-size: 20px;
+text-decoration: none;}
+li a:hover {
+    background-color: brown;
+}
+section{display: flex; flex-direction: column;padding: 15px; }
+
+#logo{width: 100px; height: 100px; float: right; }
+
+
+
+@media screen and (max-width:1260px){
+#navbar{width: 800px; }
+#navbar>li {width: 140px; }
+#logo{width:90px; height: 90px; }
+#main{width: 1060x; height: 720px;}
+
+
+
+@media screen and (max-width:700px){
+	#header{width: 100%, height:60px; position: relative;top: 80px; }
+
+	#navbar{width: 100%;height: 60px }
+#navbar>li {width: 18%;line-height: 60px; font-size: 16px; }
+li>a{line-height: 60px; font-size: 16px;}
+#logo{width: 80px; height:80px; float :left ;padding-left: 40px;position: absolute; top: -80px;}
+#main{width: 620px; height: 440px;}
+
+}
+@media screen and (max-width:480px){
+	body{background-color: pink;}
+	#header{width: 100%, height:60px;  }
+    #navbar>li {width: 100%; list-style: none;float: left; border-bottom: 1px solid skyblue; }
+    li>a {display: block;color: white; line-height: 80px; font-size: 16px;background-color:#333  }
+	section .img{ width: 15%; height: 15%; }
+
+#logo{width: 100px; height: 100px; float: right; }
+
+
+
+   
+</style>

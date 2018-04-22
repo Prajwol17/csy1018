@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prajwol Simkhada</title>
+	<meta name="viewport" content="width=device-width initial-scale=1">
+</head>
+<body>
+	
+	<div id="header">
+		<div id="logo">
+			<img src="logo/logo.png">
+		</div>	
+	 <ul id="navbar">
+		<li><a href="index.html">Home </a></li>
+		<li><a href="about.html">About </a></li>
+	    <li><a href="cv.html">CV </a></li>
+	    <li><a href="social.html">Social</a></li> 
+	    <li><a href="contact.html">Contact</a></li>
+
+      </ul>
+      <
+      <div class="contact-title">
+      	<h1>Contact me </h1>
+      	<h2>I am always ready to write you back ;)</h2>
+      </div>
+      <div class="contact-form">
+      	<form id="contact-form" method="post" action="">
+      		<input name="name" type="text" class="form-control" placeholder="Your name" required><br>
+      		<input name="email" type="email" class="form-control" placeholder="Your email" required><br>
+      		<textarea name="message" class="form-control" placeholder="message" rows="4" required=""></textarea><br>
+      		<input type="submit" class="form-control send" value="SEND MESSAGE">
+      	</form>
+      </div>
+      <section>
+      	<map>
+      		<area shape="rect" coords="x,y,x+width,y+height" href="">
+      	
+      <p><iframe src="https://www.google.com/maps/embed?pb=!1m21!1m12!1m3!1d4237.855496083064!2d85.40829499743572!3d27.730268296994822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m6!3e2!4m3!3m2!1d27.732760799999998!2d85.4091708!4m0!5e0!3m2!1sen!2snp!4v1524379413909" width="400" height="200" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+</map>
+      
+  </div>
+  <footer>Copyright</footer>
+</body></html>
+<style>
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{background-color: skyblue;background-image: url(Photo/bg.jpg); }
+header,footer{background-color: #333; width: 100%, height:80px; box-shadow:0px, 3px, 6px grey; }
+#navbar{width: 95%; height:80px;border-right:3px solid white ; background-color: #333}
+#navbar>li {width: 15%; list-style: none;display: inline-flex;flex-direction: row;flex-basis: 0; border-left: 1px solid gray;  }
+li>a {display: block;color: white; line-height: 80px; text-align: center;font-family: Lobster;font-size: 20px;
+text-decoration: none;}
+li a:hover {
+    background-color: brown;
+}
+#logo{width: 100px; height: 100px; float: right; }
+#main{width: 1500px; height: 800px;}
+.tr{ width: 50%; }
+.contact-title{
+	margin-top: 100px; color: #fff; text-transform: uppercase; transition: all 4s ease-in-out;
+}
+form{
+	margin-top: 50px;
+	transition: all 4s ease-in-out;
+
+}
+.form-control{
+	width: 600px; background :transparent; border: none;outline: none;border-bottom: 1px solid gray;color: #fff; font-size: 18px; margin-bottom: 16px;
+}
+input { height: 45px; }
+form .submit{
+	background: orange ;color: #fff; font-size: 20px; font-weight: bold; letter-spacing: 2px; height: 50px; margin-top: 20px;
+}
+form .submit:hover{ background-color: #f44336; }
+
+@media screen and (max-width:1260px){
+#navbar{width: 800px; }
+#navbar>li {width: 140px; }
+#logo{width:90px; height: 90px; }
+map .p{width: 400px; height: 100px; }
+
+
+@media screen and (max-width:700px){
+	#header{width: 100%, height:60px; position: relative;top: 80px; }
+
+	#navbar{width: 100%;height: 60px }
+#navbar>li {width: 18%;line-height: 60px; font-size: 16px; }
+li>a{line-height: 60px; font-size: 16px;}
+#logo{width: 80px; height:80px; float :left ;padding-left: 40px;position: absolute; top: -80px;}
+#main{width: 620px; height: 440px;}
+ map .p{width: 100%; max-width: 650px;}
+}
+@media screen and (max-width:480px){
+	body{background-color: #333}
+	#header{width: 100%, height:60px;  }
+    #navbar>li {width: 100%; list-style: none;float: left; border-bottom: 1px solid skyblue; }
+    li>a {display: block;color: white; line-height: 80px; font-size: 16px;background-color:#333  }
+	
+
+#logo{width: 100px; height: 100px; float: right; }
+map .p{width: 100%; max-width: 400px;}
+}
+
+</style>
